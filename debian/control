@@ -1,0 +1,12 @@
+Source: ros-humble-gazebo-set-joint-positions-plugin
+Section: misc
+Priority: optional
+Maintainer: Boeing <Jason.Cochrane@boeing.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-gazebo-dev, ros-humble-gazebo-ros, ros-humble-gazebo-ros-pkgs <!nocheck>, ros-humble-joint-state-publisher <!nocheck>, ros-humble-launch-testing-ament-cmake <!nocheck>, ros-humble-rclcpp, ros-humble-robot-state-publisher <!nocheck>, ros-humble-ros2launch <!nocheck>, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-urdf <!nocheck>, ros-humble-xacro <!nocheck>, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-gazebo-set-joint-positions-plugin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-gazebo-dev, ros-humble-gazebo-ros, ros-humble-rclcpp, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-ros-workspace
+Description: Set gazebo robot joint positions
